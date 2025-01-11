@@ -4,7 +4,7 @@ import { assets } from "../../assets/assets";
 import axios from "axios";
 import { toast } from "react-toastify";
 function Add() {
-    const url = "http://localhost:4000";
+    const url = "https://food-delivery-backend-zot6.onrender.com";
     const [image, setImage] = React.useState(false);
     const [data, setData] = React.useState({
         name: "",
